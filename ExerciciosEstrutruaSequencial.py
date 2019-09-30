@@ -48,19 +48,26 @@ print("A medida em cemtimetros é: ", centimetros, "cm")
 
 '''
 6) Faça um Programa que peça o raio de um círculo, calcule e mostre sua área.
-'''
 
 raio = int(input("Digite o raio: "))
 area = raio*3.14**2
 print("A area é: ", area, "m2")
 
+'''
+'''
+
+7)Faça um Programa que calcule a área de um quadrado,
+em seguida mostre o dobro desta área para o usuário.
+
+'''
 
 
+largura = int(input("Digite a largura: "))
+altura = int(input("Digite a altura: "))
 
+area = largura * altura
 
-
-
-
+print("O dobra da área é: ", area*2, "m2")
 
 
 
