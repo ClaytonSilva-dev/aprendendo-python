@@ -59,7 +59,6 @@ print("A area é: ", area, "m2")
 7)Faça um Programa que calcule a área de um quadrado,
 em seguida mostre o dobro desta área para o usuário.
 
-'''
 
 
 largura = int(input("Digite a largura: "))
@@ -68,6 +67,43 @@ altura = int(input("Digite a altura: "))
 area = largura * altura
 
 print("O dobra da área é: ", area*2, "m2")
+
+'''
+
+'''
+8)Faça um Programa que pergunte quanto você ganha por hora e o
+número de horas trabalhadas no mês.
+Calcule e mostre o total do seu salário no referido mês.
+
+
+valor_hora = int(input("Digite o valor da hora trabalhada: "))
+horas_mes = int(input("Digite a quantidade de horas trabalhadas no mês: "))
+
+salario_mes = valor_hora * horas_mes
+
+print("O salário do mês é : R$ ", salario_mes)
+'''
+
+'''
+9) Faça um Programa que peça a temperatura em graus Farenheit,
+transforme e mostre a temperatura em graus Celsius.
+C = (5 * (F-32) / 9).
+
+
+
+temp_farenheit = int(input("Digite a temperatura em Farenheit: "  ))
+
+temp_celsius = (5 * (temp_farenheit - 32) / 9)
+
+print("A temperatura em Celsius é : ", temp_celsius, "Cº")
+'''
+
+
+
+# Conferindo o fluxo de trabalho no git e github
+
+
+
 
 
 
