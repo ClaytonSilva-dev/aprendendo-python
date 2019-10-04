@@ -88,7 +88,7 @@ print("O salário do mês é : R$ ", salario_mes)
 9) Faça um Programa que peça a temperatura em graus Farenheit,
 transforme e mostre a temperatura em graus Celsius.
 C = (5 * (F-32) / 9).
-
+'''
 
 
 temp_farenheit = int(input("Digite a temperatura em Farenheit: "  ))
@@ -96,12 +96,20 @@ temp_farenheit = int(input("Digite a temperatura em Farenheit: "  ))
 temp_celsius = (5 * (temp_farenheit - 32) / 9)
 
 print("A temperatura em Celsius é : ", temp_celsius, "Cº")
+
+'''
+10) Faça um Programa que peça a temperatura em graus Celsius,
+transforme e mostre em graus Farenheit.
+
 '''
 
 
 
-# Conferindo o fluxo de trabalho no git e github
+temp_celsius = float(input("Digite a temperatura em graus Celsius : "))
 
+temp_farenheit = ((temp_celsius/5)*9)+32
+
+print ("Temperatura em Farenheit é: ", temp_farenheit)
 
 
 
