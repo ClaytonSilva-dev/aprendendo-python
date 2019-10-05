@@ -115,7 +115,7 @@ print ("Temperatura em Farenheit é: ", temp_farenheit)
 a) o produto do dobro do primeiro com metade do segundo .
 b) a soma do triplo do primeiro com o terceiro.
 c) o terceiro elevado ao cubo.
-'''
+
 
 
 num_int1 = int(input("Digite o primeiro numero inteiro: "))
@@ -130,6 +130,25 @@ print("A soma do triplo do primeiro com o terceiro é: ", b)
 
 c = num_real**3
 print(" O Terceiro numero ao cubo é: ",c)
+'''
+
+'''
+12) Tendo como dados de entrada a altura de uma pessoa,
+construa um algoritmo que calcule seu peso ideal,
+usando a seguinte fórmula: (72.7*altura) - 58
+'''
+
+altura = float(input("Digite sua altura: "))
+
+peso_ideal = (72.7 * altura)-58
+
+print("Seu peso ideal é: ", peso_ideal)
+
+
+
+
+
+
 
 
 
