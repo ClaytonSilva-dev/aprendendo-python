@@ -136,15 +136,32 @@ print(" O Terceiro numero ao cubo é: ",c)
 12) Tendo como dados de entrada a altura de uma pessoa,
 construa um algoritmo que calcule seu peso ideal,
 usando a seguinte fórmula: (72.7*altura) - 58
-'''
+
 
 altura = float(input("Digite sua altura: "))
 
 peso_ideal = (72.7 * altura)-58
 
 print("Seu peso ideal é: ", peso_ideal)
+'''
 
+'''
+13)Tendo como dado de entrada a altura (h) de uma pessoa,
+construa um algoritmo que calcule seu peso ideal,
+utilizando as seguintes fórmulas:
+Para homens: (72.7*h) - 58
+Para mulheres: (62.1*h) - 44.7
+'''
 
+sexo = input("Digite o sexo. masculino ou feminino: ")
+altura = float(input("Digite a sua altura: "))
+
+if sexo == "masculino":
+    peso_masc = (72.7 * altura) - 58
+    print("Seu peso ideal é: ", peso_masc)
+else:
+    peso_fem = (62.1 * altura) - 44.7
+    print("Seu peso ideal é: ", peso_fem)
 
 
 
