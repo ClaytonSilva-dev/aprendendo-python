@@ -151,7 +151,7 @@ construa um algoritmo que calcule seu peso ideal,
 utilizando as seguintes fórmulas:
 Para homens: (72.7*h) - 58
 Para mulheres: (62.1*h) - 44.7
-'''
+
 
 sexo = input("Digite o sexo. masculino ou feminino: ")
 altura = float(input("Digite a sua altura: "))
@@ -162,6 +162,42 @@ if sexo == "masculino":
 else:
     peso_fem = (62.1 * altura) - 44.7
     print("Seu peso ideal é: ", peso_fem)
+
+'''
+
+'''
+14) João Papo-de-Pescador, homem de bem,
+comprou um microcomputador para controlar o rendimento diário de seu trabalho.
+Toda vez que ele traz um peso de peixes maior que o estabelecido
+pelo regulamento de pesca do estado de São Paulo (50 quilos)
+deve pagar uma multa de R$ 4,00 por quilo excedente.
+João precisa que você faça um programa que leia a variável
+peso (peso de peixes) e calcule o excesso.
+Gravar na variável excesso a quantidade de quilos além do limite e
+na variável multa o valor da multa que João deverá pagar.
+Imprima os dados do programa com as mensagens adequadas.
+'''
+
+
+peso_peixe = float(input("Entre com o peso do peixe: "))
+
+
+
+peso_regulado = 50
+
+
+
+peso_excesso = peso_peixe - peso_regulado
+
+multa = peso_excesso * 40
+
+
+
+print("Peso total: ", peso_peixe, "kg")
+print("O limite de peso por peixe é: ", peso_regulado, "kg")
+print("A multa por excesso de peso é R$ 40,00, por kilo excedido")
+print("A multa a pagar é: R$", multa)
+
 
 
 
