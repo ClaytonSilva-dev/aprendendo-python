@@ -207,8 +207,7 @@ calcule os descontos e o salário líquido, conforme a tabela abaixo:
 = Salário Liquido : R$
 Obs.: Salário Bruto - Descontos = Salário Líquido.
 '''
-
-salarioHora = float(input('Digite o valor recebido por hora: R$ '))
+'''salarioHora = float(input('Digite o valor recebido por hora: R$ '))
 horasTrabalhadas = float(input('Digite a quantidade de horas trabalhadas: '))
 
 salarioBruto = salarioHora + horasTrabalhadas
@@ -225,6 +224,11 @@ print('IR (11%) : R$ ', impostoRenda)
 print('INSS (8%) : R$ ', inss)
 print('Sindicato (5%) : R$ ', sindicato)
 print('Salário Liquido : R$ ', salarioLiquido)
+'''
+
+### teste
+
+
 
 
 
