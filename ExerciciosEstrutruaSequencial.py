@@ -176,28 +176,55 @@ peso (peso de peixes) e calcule o excesso.
 Gravar na variável excesso a quantidade de quilos além do limite e
 na variável multa o valor da multa que João deverá pagar.
 Imprima os dados do programa com as mensagens adequadas.
-'''
-
 
 peso_peixe = float(input("Entre com o peso do peixe: "))
 
-
-
 peso_regulado = 50
-
-
-
 peso_excesso = peso_peixe - peso_regulado
 
 multa = peso_excesso * 40
-
-
-
 print("Peso total: ", peso_peixe, "kg")
 print("O limite de peso por peixe é: ", peso_regulado, "kg")
 print("A multa por excesso de peso é R$ 40,00, por kilo excedido")
 print("A multa a pagar é: R$", multa)
+'''
 
+
+'''
+15 Faça um Programa que pergunte quanto você ganha por hora e o número de 
+horas trabalhadas no mês. Calcule e mostre o total do seu salário no 
+referido mês, sabendo-se que são descontados 11% para o Imposto de Renda, 
+8% para o INSS e 5% para o sindicato, faça um programa que nos dê:
+salário bruto.
+quanto pagou ao INSS.
+quanto pagou ao sindicato.
+o salário líquido.
+calcule os descontos e o salário líquido, conforme a tabela abaixo:
++ Salário Bruto : R$
+- IR (11%) : R$
+- INSS (8%) : R$
+- Sindicato ( 5%) : R$
+= Salário Liquido : R$
+Obs.: Salário Bruto - Descontos = Salário Líquido.
+'''
+
+salarioHora = float(input('Digite o valor recebido por hora: R$ '))
+horasTrabalhadas = float(input('Digite a quantidade de horas trabalhadas: '))
+
+salarioBruto = salarioHora + horasTrabalhadas
+
+impostoRenda = salarioBruto * 0.11
+inss = salarioBruto * 0.08
+sindicato = salarioBruto * 0.05
+descontos = impostoRenda + inss + sindicato
+
+salarioLiquido = salarioBruto - descontos
+
+print('Salário Bruto : R$ ', salarioBruto)
+print('IR (11%) : R$ ', impostoRenda)
+print('INSS (8%) : R$ ', inss)
+print('Sindicato (5%) : R$ ', sindicato)
+print('Salário Liquido : R$ ', salarioLiquido)
 
 
 
